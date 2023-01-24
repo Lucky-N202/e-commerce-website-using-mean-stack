@@ -35,6 +35,7 @@ exports.login = (req, res, next) => {
           if (!validPassword) {
             return res.status(401).json({ error: "Incorrect password!" });
           }
+          res.cookie('user_id', user._id, { httpOnly: true });
           res.status(200).json({
             userId: user._id,
             token: jwt.sign(
