@@ -1,0 +1,11 @@
+nav {
+  @apply bg-white py-4 shadow-md;
+  a {
+    @apply text-white no-underline;
+  }
+  .container {
+    @apply mx-auto;
+  }
+}
+
+
