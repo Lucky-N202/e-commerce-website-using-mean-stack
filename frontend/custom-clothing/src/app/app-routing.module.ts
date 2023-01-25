@@ -5,13 +5,15 @@ import { LoginComponent } from './components/login/login.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
+import { SignupComponent } from './components/signup/signup.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'products', component: ProductListComponent },
   { path: 'product/:id', component: ProductDetailComponent },
   { path: 'login', component: LoginComponent},
-  { path: 'nav', component: NavbarComponent}
+  { path: 'nav', component: NavbarComponent},
+  { path: 'signup', component: SignupComponent}
 ];
 
 @NgModule({

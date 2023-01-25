@@ -10,6 +10,7 @@ import { ProductListComponent } from './components/product-list/product-list.com
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 import { LoginComponent } from './components/login/login.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { SignupComponent } from './components/signup/signup.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     ProductDetailComponent,
     LoginComponent,
     NavbarComponent,
+    SignupComponent,
 
   ],
   imports: [
